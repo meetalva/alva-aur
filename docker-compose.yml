@@ -5,12 +5,6 @@ services:
     image: imrehg/archlinux-makepkg
     volumes:
       - '.:/home/builder/'
-    command: makepkg -fi --noconfirm
-  
-  printsrcinfo:
-    image: imrehg/archlinux-makepkg
-    volumes:
-      - '.:/home/builder/'
-    command: makepkg --printsrcinfo > .SRCINFO
+    command: sh -c "makepkg --printsrcinfo > .SRCINFO && makepkg -fi --noconfirm"
 
 

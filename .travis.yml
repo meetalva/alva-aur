@@ -1,4 +1,7 @@
 services:
   - docker
 script:
+  - whoami
+  - ls -lha
+  - pwd
   - docker-compose run --rm makepkg
