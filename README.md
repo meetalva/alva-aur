@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.com/meetalva/alva-aur.svg?branch=master)](https://travis-ci.com/meetalva/alva-aur)
 
-Official sources for the Alva AUR package (https://github.com/meetalva/alva-aur).
+Official sources for the Alva AUR package (https://github.com/meetalva/aur-alva-appimage).
 AUR repository: https://aur.archlinux.org/alva-appimage.git
 
 # Updating Version
