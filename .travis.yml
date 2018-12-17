@@ -1,5 +1,4 @@
 services:
   - docker
 script:
-  - chmod a+w .SRCINFO
   - docker-compose run --rm makepkg
