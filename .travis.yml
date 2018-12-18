@@ -1,4 +1,4 @@
 services:
   - docker
 script:
-  - docker-compose run --user=root --rm  makepkg sh -c "useradd -u 2000 travis && su -c 'makepkg -fi --noconfirm' travis"
+  - docker-compose run --user=2000:2000 --rm  makepkg
