@@ -1,4 +1,5 @@
 services:
   - docker
 script:
-  - docker-compose run --user=2000:2000 --rm  makepkg
+  - docker-compose run --user=2000:2000 --rm makepkg makepkg -f
+  - docker-compose run --rm makepkg -i --noconfirm
